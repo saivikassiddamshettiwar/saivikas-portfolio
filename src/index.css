@@ -4,17 +4,19 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Premium smooth custom scrollbar */
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #020617, #0f172a, #020617);
+  color: white;
+  overflow-x: hidden;
+  font-family: Inter, sans-serif;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
-::-webkit-scrollbar-track {
-  background: #020617;
-}
+
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #3b82f6;
+  background: #06b6d4;
+  border-radius: 20px;
 }
